@@ -24,14 +24,25 @@
 
      <div class="container">
             <div class="card-a"><a href="https://www.reddit.com/"><h2>Web Page 1</h2></a>
-            <p class="a">hhh</p>
+            <p class="a">grid template, using grid areas we can in a graphic way show and understand how our layout willl be, and the content inside of the grid template will be assigned the available space in the grid-template's parent container, all the childs are assigned a grid area that matches the area names mentioned in the parent container, then the childs will be assigned with the avilable room in accordance to how many times their names we're rpeated in the grid template. All of this helps us create well functioning layouts that dont overlap and interfere with each other because of different margins and paddings, we manage to create a layout that is all defined in a single container with the grid template, only with the addition of some name given to the childs. We create very efficient code that ensure our pages accessibility. The grid template gives our page a safe way to create heaps of different layouts without the risk of having different content interere with each other by accident. Having all of our container refer abck to the same parent container gives us less code, creating effeicency and ensuring a rliable site as the content has fewer possibility of error and requires less maintenance since it can all be sourced back tto a known source rather than speculating in all the individualities linked to an array of different information trying to coexist. We create order, we create a fundament that ensures reliability and less code gives us both efficiency and returns the same result.  Adaptability is important, the grid assigns all it's childs the avilable area in the specified container, creating for great acessbility and clarity as the content will be optimised in accordance to any viewport it is interfering with. We code for efficiency and use the same fundament for many element, giving us reliable and secure code.
+
+We us the WCAG/Web Content Accessibility guidelines to ensure our page is perceivable, active, and understandable
+
+WCGAV ACCSESSBILITY, contrast ratio: when creating a website we need to ensure that the information on our webpage is understandable and accessible by a wide variety of users. 
+This includes people with poor reading comprehension, lack of color deficiencies. Color can often be tricky for people so a contrast is a better indicator as it sheds different amount of lights, creating the unavodiable, dark vs light  differantiation, which creates a much more solid way of differentiating text from background. We also have a lower contrast ratio criteria for larger text as wider chartacter strokes creates for better readabilty and thus the requirements are all relative to the text in question and certain charcteristics of the text can lower the general criteria for the remaining criteria as we are trying to meet a sum of readabilty rather than needlessly check boxes when that original crriteria sum is met collectively already. OInce a  certain degree of readability is met in accordance with the Web Content accessibility guidelines .
+
+
+
+
+Image alt attribute with the <img> element :we use the alt text for our image, not because HTML demands it but because it is incredibly useful for accsessibility, and screen readers will use that information for their users who want somebody to read them what the image means, alt text is also displayed if there is any issues loading the image,  which could happen because of a variety of reasons like content blocking, network error etc.. So to improve accessibilyt and allow a different way of percieving our pagfes chosen image we add the alt attribute text that holds a descirption of our image. We use all of this knowledge combined with the knowledge that visible light is electromagnetic radiation within the portion of the electromagnetic spectrum that is percieved by the human eye, and when creating different contrast we know that one of them carries more light as darkness is the abssence of light. When nearly all light is reflected we see white, the electromagnetic radtion is livid, when no ligth is reflected we see black. ANd our users then recivve and measure the amount of incoming light in their retina mediated by their photoreceptors, thus indulging all recieved light into the automated process wired to the human brain,  creating for the entire experience of our webpage visually. </p>
             <button class="a" onclick="showText1()">Show Text (Page 1)</button>
         </div> 
            
 
 
             <div class="card-b"><a href="https://www.reddit.com/"><h2>Web Page 2</h2></a>
-                <p class="b">Nihilism is the belief that all values are baseless and that nothing can be known or communicated. It is often associated with extreme pessimism and a radical skepticism that condemns existence. A true nihilist would believe in nothing, have no loyalties, and no purpose other than, perhaps, an impulse to destroy.</p>
+                <p class="b">an example of text hierarchy is using the h1 for tthe title of the story, the h2 elements for the titlte of each chapter and then we can use the h3 for a sub-section of those chapters. So with this webpage, to keep it orderly we have used the text hierarchy both to calrify the difference in importance between the elements for the user who reads the text inbetween the text we've put inbetween the tags, but we also do this for the seo of the website
+we do all of this for potential visitors haveing the best chance at finding our page. Most ebsites depend on organic search engine traffic, as advertising and such is usually short-lived unless you have an unlimited amount of money to spend.  By utilisnig the added descriptive fields in the html we endulge in the process of improving our website so that it achieves a higher ranking in something called "search engine SERPS". These SRP's  gives us a better chance at reciving clicks from search engine users who can then see our website listed in the search engine results. </p>
                 <button class="b" onclick="showText2()">Show Text (Page 2)</button>
 
             </div>
@@ -39,7 +50,16 @@
 
             <div class="card-c"><a href="https://www.reddit.com/"><h2>Web Page 3</h2></a>
 
-            <p class="c">hhh</p>
+            <p class="c"> landing page, length unit width auto: I have now let the carouselContainer adapt to the columns using width auto, this auto unit adapts to the column gap, in stark contrast to vw which was used prior. Now the content immediately expands to accomdodate the columns of inofrmation which has great readability due to the consistent sising and good relationsship between the parents and children that now accomodate each other, with the black font we have the contrast ratio we want. 
+
+mobile carousell:: now i have made the cards avoid inline block, they now are blocks and  the same margin applied to all of them, they are now put in the same relative postion to their parents, img, removed the margin on image, so it now takes the img styling of margin 0 auto combined with display flex. 
+
+change the negative marign issues on ipad 
+use correct length units
+
+cardcolour-i changed the cardcolour to create great readbility, i gave it a light tone to differeantiate the card from the white backgroiund, then i used the classic black for the font inside the card, also, to keep the text from feeling claustrophobic and to make the text clearly remain withtin it's text hierachy which is the cards borders, i added extra text margin for the text to lie comfortaably iwthin the card and closer ot the center of it's parent ot show the correlation better. 
+
+responsive page-changed the blogsPosts.html page, making the adaptability/responsiveness better, now the  >500px heights don't experience the content overflowing and overlapping so that the layout remains intact and all structures are individually sorted still, we have made the layout shrink successful. </p>
             <button class="c" onclick="showText3()">Show Text (Page 3)</button>
         </div>
 
